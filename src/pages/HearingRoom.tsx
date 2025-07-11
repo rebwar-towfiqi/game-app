@@ -115,13 +115,14 @@ export default function HearingRoom() {
           {caseData.summary.slice(0, 300)}...
         </p>
         <a
-          href={`https://t.me/RebLawCoin_bot?start=${caseId}`}
-          className="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded text-sm font-bold"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          🌐 مشاهده متن کامل پرونده در ربات
-        </a>
+  href={`https://t.me/RebLCBot?start=${caseId}`}
+  className="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded text-sm font-bold"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  🌐 مشاهده متن کامل پرونده در ربات
+</a>
+
       </div>
 
       <div className="bg-white text-black p-4 rounded-md w-full max-w-2xl">
