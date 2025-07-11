@@ -1,13 +1,14 @@
 {
-  "name": "RebLaw Game",
-  "description": "Legal Debate Game powered by RebLawCoin (RLC)",
-  "short_name": "RebLawGame",
-  "start_url": "/game/index.html",
+  "name": "Legal Debate Game",
+  "short_name": "DebateGame",
+  "description": "A legal mini app for arguments and justice",
   "icons": [
     {
       "src": "/game/icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "start_url": "/game/",
+  "display": "standalone"
 }

@@ -1,17 +1,16 @@
 {
-  "name": "RebLaw Legal Debate Game",
-  "short_name": "RebLawGame",
-  "start_url": "/game/index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0f172a",
-  "orientation": "portrait",
-  "description": "A legal debate game powered by RebLawBot.",
+  "short_name": "DebateGame",
+  "name": "Legal Debate Game",
   "icons": [
     {
       "src": "/game/icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "start_url": "/game/index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
+
